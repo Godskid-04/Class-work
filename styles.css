@@ -1,0 +1,184 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(210, 46%, 95%);
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+main{
+    width: 80%;
+    height: 400px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 8px;
+}
+.left-main-grid{
+    display: grid;
+    gap: 8px;
+}
+.bottom-grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    /* height: 200px; */
+    gap: 8px;
+}
+.top-grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    /* height: 200px; */
+    gap: 8px;
+}
+.right-main-grid{
+    background-color:  hsl(0, 0%, 100%);
+    border-radius: 3px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.top-grid1{
+    background-color:  hsl(263, 55%, 52%);
+    border-radius: 3px;
+    background-image: url(images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position-x: 85%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.top-grid2{
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 3px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.bottom-grid2{
+    background-color: hsl(219, 29%, 14%);
+    border-radius: 3px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.bottom-grid1{
+    background-color:  hsl(0, 0%, 100%);
+    border-radius: 3px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.profile{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    gap: 12px;
+}
+.image{
+    width: 50px;
+    height: 50px;
+    border: 2px solid #A775f1;
+    border-radius: 100%;
+}
+.image img{
+    width: 100%;
+    border-radius: 100%;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+}
+.profile-name{
+    color: white;
+}
+.profile-title{
+    color: gray;
+}
+.userheader{
+    font-size: 13px;
+    color: white;
+}
+.userdescription{
+    font-size: 13px;
+    color: gray;
+}
+.profile-name1{
+    color: hsl(217, 19%, 35%);
+    font-size: 13px;
+    font-weight: 600;
+    opacity: 80%;
+}
+.profile-title1{
+    color: hsl(217, 19%, 35%);
+    font-size: 13px;
+    opacity: 50%;
+}
+.userheader1{
+    color: hsl(217, 19%, 35%);
+    font-size: 13px;
+    font-weight: 600;
+    opacity: 80%;
+}
+.userdescription1{
+    color: hsl(217, 19%, 35%);
+    font-size: 13px;
+    opacity: 50%;
+}
+.attribution{
+    text-align: center;
+    padding: 20px;
+}
+/* main{
+    width: 80%;
+    height: 200px;
+    margin: 35px auto;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 8px;
+}
+.left-main-grid{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 2px;
+    gap: 8px;
+}
+.right-main-grid{
+    background-color:  hsl(0, 0%, 100%);
+    border-radius: 2px;
+}
+.bottom-grid{
+    display: grid;
+    grid-auto-columns: 2fr 1fr;
+    height: 100px;
+    gap: 8px;
+}
+.top-grid{
+    display: grid;
+    grid-auto-columns: 2fr 1fr;
+    height: 100px;
+    gap: 8px;
+}
+.top-grid1{
+    background-color:  hsl(263, 55%, 52%);
+    border-radius: 2px;
+}
+.bottom-grid1{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 2px;
+}
+.top-grid2{
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 2px;
+}
+.bottom-grid2{
+    background-color: hsl(219, 29%, 14%);
+    border-radius: 2px;
+} */
